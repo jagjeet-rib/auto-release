@@ -13,17 +13,18 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Bump version and push tag
-        uses: hennejg/github-tag-action@v4
+      - name: Run semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}  # Only necessary if you are publishing to npm
