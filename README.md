@@ -2,7 +2,7 @@
 Auto release with new tag (version) by conventional commits
 
 # Current Version
-- 5.0.0
+- 5.0.1
 
 # Version History
 - 1.0.0
@@ -17,3 +17,4 @@ Auto release with new tag (version) by conventional commits
 - 3.0.0
 - 4.0.0
 - 5.0.0
+- 5.0.1
