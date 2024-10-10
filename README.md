@@ -4,7 +4,6 @@ Auto release with new tag (version) by conventional commits
 # Current Version
 - 3.0.0
 
-
 # Version History
 - 1.0.0
 - 1.0.1
