@@ -2,7 +2,7 @@
 Alpha has created from 5.0.0 with main
 
 # Current Version on Alpha
-- 5.0.0
+- 5.0.1
 
 # Version History
 - 1.0.0
@@ -17,3 +17,4 @@ Alpha has created from 5.0.0 with main
 - 3.0.0
 - 4.0.0
 - 5.0.0
+- 5.0.1
