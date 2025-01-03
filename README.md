@@ -18,3 +18,5 @@ Auto release with new tag (version) by conventional commits
 - 4.0.0
 - 5.0.0
 - 5.0.1
+- 6.0.1
+- 6.0.2
